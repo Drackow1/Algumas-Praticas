@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Orçamentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gerador de Orçamentos</h1>
+    </header>
+    <main>
+        <section id="parts-list">
+            <!-- Aqui você teria uma lista de peças com checkboxes -->
+        </section>
+        <section id="cart">
+            <h2>Carrinho de Compras</h2>
+            <ul id="cart-items">
+                <!-- Itens do carrinho seriam listados aqui -->
+            </ul>
+            <p id="total">Total: R$0.00</p>
+            <button id="calculate-button">Calcular Total</button>
+            <button id="submit-button">Enviar por Email/WhatsApp</button>
+        </section>
+
+    <section id="categories">
+        <h2>Categorias</h2>
+        <ul>
+            <li><a href="#category-1">Categoria 1</a></li>
+            <li><a href="#category-2">Categoria 2</a></li>
+            <!-- Adicione mais categorias aqui -->
+        </ul>
+    </section>
+    <section id="parts-list">
+        <!-- Categoria 1 -->
+        <h2 id="category-1">Categoria 1</h2>
+        <div class="part">
+            <input type="checkbox" id="part-1" data-name="Peça 1" data-price="100">
+            <label for="part-1">Peça 1 - R$100</label>
+        </div>
+        <!-- Adicione mais peças da Categoria 1 aqui -->
+        
+        <!-- Categoria 2 -->
+        <h2 id="category-2">Categoria 2</h2>
+        <div class="part">
+            <input type="checkbox" id="part-2" data-name="Peça 2" data-price="150">
+            <label for="part-2">Peça 2 - R$150</label>
+        </div>
+        <!-- Adicione mais peças da Categoria 2 aqui -->
+        
+        <!-- Adicione mais categorias com suas peças aqui -->
+    </section>
+    <section id="cart">
+        <!-- ... (código anterior) ... -->
+    </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
